@@ -10,7 +10,7 @@ require "faker"
 10.times do
   article = Article.new(
     title: Faker::FunnyName.name,
-    content: Faker::Lorem.sentences.join("<br>")
+    content: Faker::Lorem.sentences.join("\n")
   )
   article.save!
 end
