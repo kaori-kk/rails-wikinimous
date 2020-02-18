@@ -1,11 +1,66 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body {
-  margin: 0;
-  text-align: center;
-}
 
 header h2 {
   text-align: left;
 }
+
+.lists_of_articles li{
+  list-style: none;
+}
+
+.lists_of_articles h2 a{
+  text-decoration: none;
+  color: #23527C;
+}
+
+.lists_of_articles h2 p{
+  color: grey;
+}
+
+
+.nav-bar {
+  height: 80px;
+  background-color: #F8F8F8;
+  border-bottom: 0.5px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: grey;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.container {
+  display: block;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
